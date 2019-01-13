@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 ### Author: Łukasz Bola
-### Title
 
 Feature: Test of car dealer site
 
@@ -9,4 +8,5 @@ Feature: Test of car dealer site
 		Given the page is loaded	
 		When I fill username 
 		When I fill password
+		When I click zaloguj
 		Then the home page is diplayed
